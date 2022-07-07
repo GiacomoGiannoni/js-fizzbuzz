@@ -5,7 +5,15 @@
 }
 
 html {
-    background-color: #083B4C;
+    background-color: rgb(7, 7, 128);
+    font-family: 'Monoton', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 20px 0px;
 }
 
 #container {
@@ -17,11 +25,46 @@ html {
 }
 
 .box {
-    background-color: #1389B2;
+    background-color: rgb(147, 8, 147);
     width: 80px;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    color: white;
+    
+}
+
+.box-fizz {
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Audiowide', cursive;
+}
+
+.box-buzz {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Audiowide', cursive;
+}
+
+.box-fizzbuzz {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Audiowide', cursive;
 }
